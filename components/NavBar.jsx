@@ -22,6 +22,8 @@ const NavBar = () => {
         </nav>
     </section>
   )
+
+  
 }
 
 export default NavBar
