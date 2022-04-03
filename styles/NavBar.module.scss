@@ -1,0 +1,46 @@
+$content-width: 1000px;
+$nav-breakpoint: 799px;
+$nav-height: 70px;
+$nav-background: #F5F5F5;
+$nav-font-color: #0c0c0c;
+$link-hover-color: #f8b500;
+
+.navigation {
+    height: $nav-height;
+    background: $nav-background;
+}
+
+.nav__container {
+    max-width: $content-width;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    padding-left: 10px;
+    float: left;
+    line-height: $nav-height;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.nav__list {
+    float: right;
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        list-style: none;
+        float: left;
+        position: relative;
+        a {
+            display: block;
+            padding:10px 50px 0 5px;
+            line-height: 50px;
+            background: $nav-background;
+            color: $nav-font-color;
+            text-decoration: none;
+        }
+    }
+}
